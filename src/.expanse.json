@@ -177,7 +177,8 @@
         "loop": true
       },
       "name": "tavolo_riferimento_pulsanti.glb",
-      "order": -6.25510592205183
+      "order": -6.25510592205183,
+      "disabled": true
     },
     "5f72e23a-fb47-4368-a18d-1299ddec7aa5": {
       "id": "5f72e23a-fb47-4368-a18d-1299ddec7aa5",
