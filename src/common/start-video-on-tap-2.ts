@@ -6,9 +6,10 @@ ecs.registerComponent({
     uiElement: ecs.eid,
     videoUrl: ecs.string,
     videoControls: ecs.eid,
+    uiElementToHide: ecs.eid,
   },
   stateMachine: ({world, eid, schemaAttribute, defineState}) => {
-    const {uiElement, videoUrl, videoControls} = schemaAttribute.get(eid)
+    const {uiElement, videoUrl, videoControls, uiElementToHide} = schemaAttribute.get(eid)
 
     defineState('waiting')
       .initial()
@@ -22,6 +23,7 @@ ecs.registerComponent({
         ecs.VideoControls.mutate(world, videoControls, (controls) => {
           controls.paused = false
         })
+        ecs.Hidden.set(world, uiElementToHide)
       })
   },
 })

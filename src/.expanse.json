@@ -152,7 +152,7 @@
       "id": "aa4b45cb-cbbb-48e7-aa86-e1c82d6e0e9e",
       "position": [
         0,
-        0,
+        0.0003341444883218451,
         0
       ],
       "rotation": [
@@ -162,9 +162,9 @@
         1
       ],
       "scale": [
-        0.93,
-        0.9300000000000002,
-        0.9300000000000002
+        1,
+        1,
+        1
       ],
       "parentId": "9c3f1ea3-fb4f-4d31-8b10-d41bf68022c1",
       "components": {},
@@ -177,8 +177,7 @@
         "loop": true
       },
       "name": "tavolo_riferimento_pulsanti.glb",
-      "order": -6.25510592205183,
-      "disabled": true
+      "order": -6.25510592205183
     },
     "5f72e23a-fb47-4368-a18d-1299ddec7aa5": {
       "id": "5f72e23a-fb47-4368-a18d-1299ddec7aa5",
@@ -220,7 +219,8 @@
       "name": "tavolo_proiezione.glb",
       "order": -8.014046179394953,
       "videoControls": {
-        "paused": true
+        "paused": false,
+        "loop": true
       }
     },
     "9c3f1ea3-fb4f-4d31-8b10-d41bf68022c1": {
@@ -251,9 +251,9 @@
     "88adc83b-008f-4977-a022-9179d0564622": {
       "id": "88adc83b-008f-4977-a022-9179d0564622",
       "position": [
-        -0.03230832058908743,
-        0.0010554934331568613,
-        0.06316707810545069
+        -0.03490237722488914,
+        0.0010554934331568598,
+        0.06743164197027748
       ],
       "rotation": [
         -0.7071067811865475,
@@ -262,9 +262,9 @@
         0.7071067811865476
       ],
       "scale": [
-        0.037,
-        0.03699999999999999,
-        0.03699999999999999
+        0.04,
+        0.04,
+        0.04
       ],
       "geometry": null,
       "material": null,
@@ -282,6 +282,10 @@
             "videoControls": {
               "type": "entity",
               "id": "5f72e23a-fb47-4368-a18d-1299ddec7aa5"
+            },
+            "uiElementToHide": {
+              "type": "entity",
+              "id": "6a95dc57-29dc-4e1e-b33a-445515009878"
             }
           }
         }
@@ -374,15 +378,15 @@
         "backgroundOpacity": 0.5,
         "backgroundSize": "contain"
       },
-      "name": "start icon",
+      "name": "start_icon_1",
       "order": 1.1055059936967706
     },
     "170229cc-4925-4363-81c0-9503b1bb7d45": {
       "id": "170229cc-4925-4363-81c0-9503b1bb7d45",
       "position": [
-        -0.00009367307213459628,
-        0.001055493433156861,
-        0.06316707810545069
+        -0.0000936730721345963,
+        0.0010554934331568598,
+        0.06730532721013435
       ],
       "rotation": [
         -0.7071067811865475,
@@ -391,9 +395,9 @@
         0.7071067811865476
       ],
       "scale": [
-        0.037,
-        0.03699999999999999,
-        0.03699999999999999
+        0.040000000000000015,
+        0.04,
+        0.04
       ],
       "geometry": null,
       "material": null,
@@ -411,6 +415,10 @@
             "videoControls": {
               "type": "entity",
               "id": "5f72e23a-fb47-4368-a18d-1299ddec7aa5"
+            },
+            "uiElementToHide": {
+              "type": "entity",
+              "id": "48956094-f97d-4abc-8c0e-1b097af451b8"
             }
           }
         }
@@ -469,15 +477,15 @@
         "backgroundOpacity": 0.5,
         "backgroundSize": "contain"
       },
-      "name": "start icon",
+      "name": "start_icon_2",
       "order": 1.1055059936967706
     },
     "5546abe4-f0ba-46ae-ace9-0ae6a35da91b": {
       "id": "5546abe4-f0ba-46ae-ace9-0ae6a35da91b",
       "position": [
-        0.032136781122343076,
-        0.0010554934331568609,
-        0.06316707810545069
+        0.034801009543721076,
+        0.0010554934331568598,
+        0.06762676925469693
       ],
       "rotation": [
         -0.7071067811865475,
@@ -486,9 +494,9 @@
         0.7071067811865476
       ],
       "scale": [
-        0.037,
-        0.03699999999999999,
-        0.03699999999999999
+        0.040000000000000015,
+        0.04,
+        0.04
       ],
       "geometry": null,
       "material": null,
@@ -506,6 +514,10 @@
             "videoControls": {
               "type": "entity",
               "id": "5f72e23a-fb47-4368-a18d-1299ddec7aa5"
+            },
+            "uiElementToHide": {
+              "type": "entity",
+              "id": "b9cd8043-e69c-4c18-8c1c-e67cf556aaa0"
             }
           }
         }
@@ -564,7 +576,7 @@
         "backgroundOpacity": 0.5,
         "backgroundSize": "contain"
       },
-      "name": "start icon",
+      "name": "start_icon_3",
       "order": 1.1055059936967706
     }
   },
