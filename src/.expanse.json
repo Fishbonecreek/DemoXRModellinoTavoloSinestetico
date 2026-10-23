@@ -98,22 +98,7 @@
     "3b0d1a95-9612-4e1b-b0a0-c8ca633213ba": {
       "id": "3b0d1a95-9612-4e1b-b0a0-c8ca633213ba",
       "name": "Image Target Video",
-      "components": {
-        "d1439d9c-8780-4e69-a76b-d29c7066f300": {
-          "id": "d1439d9c-8780-4e69-a76b-d29c7066f300",
-          "name": "start-video-on-tap",
-          "parameters": {
-            "uiElement": {
-              "type": "entity",
-              "id": "88adc83b-008f-4977-a022-9179d0564622"
-            },
-            "videoControls": {
-              "type": "entity",
-              "id": "5f72e23a-fb47-4368-a18d-1299ddec7aa5"
-            }
-          }
-        }
-      },
+      "components": {},
       "position": [
         0,
         0,
@@ -177,9 +162,9 @@
         1
       ],
       "scale": [
-        1,
-        1,
-        1
+        0.93,
+        0.9300000000000002,
+        0.9300000000000002
       ],
       "parentId": "9c3f1ea3-fb4f-4d31-8b10-d41bf68022c1",
       "components": {},
@@ -192,7 +177,8 @@
         "loop": true
       },
       "name": "tavolo_riferimento_pulsanti.glb",
-      "order": -6.25510592205183
+      "order": -6.25510592205183,
+      "disabled": true
     },
     "5f72e23a-fb47-4368-a18d-1299ddec7aa5": {
       "id": "5f72e23a-fb47-4368-a18d-1299ddec7aa5",
@@ -265,9 +251,9 @@
     "88adc83b-008f-4977-a022-9179d0564622": {
       "id": "88adc83b-008f-4977-a022-9179d0564622",
       "position": [
-        -0.035259190712246126,
-        0.0044366283789739145,
-        0.06427673042235622
+        -0.03230832058908743,
+        0.0010554934331568613,
+        0.06316707810545069
       ],
       "rotation": [
         -0.7071067811865475,
@@ -276,14 +262,30 @@
         0.7071067811865476
       ],
       "scale": [
-        0.04999999999999999,
-        0.04999999999999999,
-        0.04999999999999999
+        0.037,
+        0.03699999999999999,
+        0.03699999999999999
       ],
       "geometry": null,
       "material": null,
       "parentId": "9c3f1ea3-fb4f-4d31-8b10-d41bf68022c1",
-      "components": {},
+      "components": {
+        "e5595ce4-088d-404d-98e3-d295ddffa209": {
+          "id": "e5595ce4-088d-404d-98e3-d295ddffa209",
+          "name": "start-video-on-tap-2",
+          "parameters": {
+            "uiElement": {
+              "type": "entity",
+              "id": "88adc83b-008f-4977-a022-9179d0564622"
+            },
+            "videoUrl": "https://player.vimeo.com/progressive_redirect/playback/1238722197/rendition/480p/file.mp4%20%28480p%29.mp4?loc=external&log_user=0&signature=a7968888ccae3f931f5da372c7e0958313da2411514607ff29917484eb2cf7d1",
+            "videoControls": {
+              "type": "entity",
+              "id": "5f72e23a-fb47-4368-a18d-1299ddec7aa5"
+            }
+          }
+        }
+      },
       "ui": {
         "type": "3d",
         "width": 74,
@@ -372,7 +374,197 @@
         "backgroundOpacity": 0.5,
         "backgroundSize": "contain"
       },
-      "name": "Image (1)",
+      "name": "start icon",
+      "order": 1.1055059936967706
+    },
+    "170229cc-4925-4363-81c0-9503b1bb7d45": {
+      "id": "170229cc-4925-4363-81c0-9503b1bb7d45",
+      "position": [
+        -0.00009367307213459628,
+        0.001055493433156861,
+        0.06316707810545069
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.037,
+        0.03699999999999999,
+        0.03699999999999999
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "9c3f1ea3-fb4f-4d31-8b10-d41bf68022c1",
+      "components": {
+        "2c897a93-720d-4046-9b27-8ee04bb0458b": {
+          "id": "2c897a93-720d-4046-9b27-8ee04bb0458b",
+          "name": "start-video-on-tap-2",
+          "parameters": {
+            "uiElement": {
+              "type": "entity",
+              "id": "170229cc-4925-4363-81c0-9503b1bb7d45"
+            },
+            "videoUrl": "https://player.vimeo.com/progressive_redirect/playback/1238722324/rendition/480p/file.mp4%20%28480p%29.mp4?loc=external&log_user=0&signature=b88e693354c332cd08d39ecba5bc5c48e00050f84289c34393bba07fbb33ed3a",
+            "videoControls": {
+              "type": "entity",
+              "id": "5f72e23a-fb47-4368-a18d-1299ddec7aa5"
+            }
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 74,
+        "height": 37,
+        "background": "#ffffff",
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": 1,
+        "alignItems": "center",
+        "justifyContent": "center",
+        "borderRadius": 0,
+        "image": {
+          "type": "asset",
+          "asset": "assets/tasto_2.png"
+        },
+        "backgroundSize": "contain"
+      },
+      "name": "start_video_button_2",
+      "order": -3.153616383936739
+    },
+    "48956094-f97d-4abc-8c0e-1b097af451b8": {
+      "id": "48956094-f97d-4abc-8c0e-1b097af451b8",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "170229cc-4925-4363-81c0-9503b1bb7d45",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 18,
+        "height": 19,
+        "image": {
+          "type": "asset",
+          "asset": "assets/play-button-arrowhead.png"
+        },
+        "backgroundOpacity": 0.5,
+        "backgroundSize": "contain"
+      },
+      "name": "start icon",
+      "order": 1.1055059936967706
+    },
+    "5546abe4-f0ba-46ae-ace9-0ae6a35da91b": {
+      "id": "5546abe4-f0ba-46ae-ace9-0ae6a35da91b",
+      "position": [
+        0.032136781122343076,
+        0.0010554934331568609,
+        0.06316707810545069
+      ],
+      "rotation": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        0.037,
+        0.03699999999999999,
+        0.03699999999999999
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "9c3f1ea3-fb4f-4d31-8b10-d41bf68022c1",
+      "components": {
+        "26fe8227-ab56-4cd9-9ed8-6f50442085bd": {
+          "id": "26fe8227-ab56-4cd9-9ed8-6f50442085bd",
+          "name": "start-video-on-tap-2",
+          "parameters": {
+            "uiElement": {
+              "type": "entity",
+              "id": "5546abe4-f0ba-46ae-ace9-0ae6a35da91b"
+            },
+            "videoUrl": "https://player.vimeo.com/progressive_redirect/playback/1238722403/rendition/480p/file.mp4%20%28480p%29.mp4?loc=external&log_user=0&signature=a752939e2fa3db9de6fa019af72b1f4cffd48a25beee1dadec683a0ded56f6f4",
+            "videoControls": {
+              "type": "entity",
+              "id": "5f72e23a-fb47-4368-a18d-1299ddec7aa5"
+            }
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 74,
+        "height": 37,
+        "background": "#ffffff",
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": 1,
+        "alignItems": "center",
+        "justifyContent": "center",
+        "borderRadius": 0,
+        "image": {
+          "type": "asset",
+          "asset": "assets/tasto_3.png"
+        },
+        "backgroundSize": "contain"
+      },
+      "name": "start_video_button_3",
+      "order": -1.394384179944678
+    },
+    "b9cd8043-e69c-4c18-8c1c-e67cf556aaa0": {
+      "id": "b9cd8043-e69c-4c18-8c1c-e67cf556aaa0",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "5546abe4-f0ba-46ae-ace9-0ae6a35da91b",
+      "components": {},
+      "ui": {
+        "type": "3d",
+        "width": 18,
+        "height": 19,
+        "image": {
+          "type": "asset",
+          "asset": "assets/play-button-arrowhead.png"
+        },
+        "backgroundOpacity": 0.5,
+        "backgroundSize": "contain"
+      },
+      "name": "start icon",
       "order": 1.1055059936967706
     }
   },
