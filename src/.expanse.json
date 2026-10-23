@@ -368,6 +368,40 @@
         "verticalTextAlign": "center"
       },
       "order": 1.3759733433951575
+    },
+    "1223d5ab-4fb0-4fd1-8d79-3fe188702fd9": {
+      "id": "1223d5ab-4fb0-4fd1-8d79-3fe188702fd9",
+      "position": [
+        0,
+        -0.001,
+        -0.001
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "material": {
+        "type": "hider"
+      },
+      "parentId": "9c3f1ea3-fb4f-4d31-8b10-d41bf68022c1",
+      "components": {},
+      "name": "tavolo_occluder",
+      "order": -9.433438592952596,
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/tavolo_occluder.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      }
     }
   },
   "spaces": {
