@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 0,
+    "left": 106,
+    "width": 633,
+    "height": 844,
+    "isRotated": false,
+    "originalWidth": 844,
+    "originalHeight": 844
+  },
+  "imagePath": "image-targets/logoICcubo_luminance.png",
+  "metadata": null,
+  "name": "logoICcubo",
+  "resources": {
+    "originalImage": "logoICcubo_original.png",
+    "croppedImage": "logoICcubo_cropped.png",
+    "thumbnailImage": "logoICcubo_thumbnail.png",
+    "luminanceImage": "logoICcubo_luminance.png"
+  },
+  "created": 1792074637987,
+  "updated": 1792166296815
+}

@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 903,
+    "left": 603,
+    "width": 1275,
+    "height": 1700,
+    "isRotated": false,
+    "originalWidth": 2481,
+    "originalHeight": 3508
+  },
+  "imagePath": "image-targets/tavolo_image_target_luminance.png",
+  "metadata": null,
+  "name": "tavolo_image_target",
+  "resources": {
+    "originalImage": "tavolo_image_target_original.png",
+    "croppedImage": "tavolo_image_target_cropped.png",
+    "thumbnailImage": "tavolo_image_target_thumbnail.png",
+    "luminanceImage": "tavolo_image_target_luminance.png"
+  },
+  "created": 1792745828307,
+  "updated": 1792745858345
+}
